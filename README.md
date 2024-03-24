@@ -45,3 +45,44 @@
     .project h2 {
       margin-top: 0;
     }
+    .project p {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Mechanical Design Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Insert your about content here...</p>
+    </section>
+    <section id="work">
+      <h2>My Work</h2>
+      <div class="project">
+        <h3>Project 1: Mechanical Component Design</h3>
+        <p>Description: This project involved designing a mechanical component for XYZ application.</p>
+        <p>Skills: CAD modeling, mechanical analysis</p>
+      </div>
+      <div class="project">
+        <h3>Project 2: Product Prototype Development</h3>
+        <p>Description: Developed a prototype for a new product idea.</p>
+        <p>Skills: Prototyping, material selection</p>
+      </div>
+      <!-- Add more projects as needed -->
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: your.email@example.com</p>
+      <p>Phone: 123-456-7890</p>
+    </section>
+  </div>
+</body>
+</html>
