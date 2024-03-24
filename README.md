@@ -1,9 +1,9 @@
-# jhanikhil
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mechanical Design Portfolio</title>
+  <title>My Mechanical Design Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -20,6 +20,16 @@
     h1 {
       margin: 0;
     }
+    nav {
+      background-color: #444;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
     .container {
       max-width: 800px;
       margin: 20px auto;
@@ -35,27 +45,3 @@
     .project h2 {
       margin-top: 0;
     }
-    .project p {
-      margin-top: 10px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>My Mechanical Design Portfolio</h1>
-  </header>
-  <div class="container">
-    <div class="project">
-      <h2>Project 1: Mechanical Component Design</h2>
-      <p>Description: This project involved designing a mechanical component for XYZ application.</p>
-      <p>Skills: CAD modeling, mechanical analysis</p>
-    </div>
-    <div class="project">
-      <h2>Project 2: Product Prototype Development</h2>
-      <p>Description: Developed a prototype for a new product idea.</p>
-      <p>Skills: Prototyping, material selection</p>
-    </div>
-    <!-- Add more projects as needed -->
-  </div>
-</body>
-</html>
